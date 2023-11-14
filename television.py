@@ -21,7 +21,7 @@ class Television:
 
     def mute(self) -> None:
         """
-        Method to mute and unmute tv.
+        Method to mute and unmute the tv.
         """
         if self.__status:
             if self.__muted:
